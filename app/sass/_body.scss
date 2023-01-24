@@ -1,0 +1,12 @@
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px auto;
+    background-color: rgb(53, 53, 53);
+    font-family: sans-serif;
+    color: white;
+}
