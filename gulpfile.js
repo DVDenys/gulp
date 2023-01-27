@@ -64,7 +64,6 @@ gulp.task('css', function () {
 // Замена строк внутри всех html файлов, выливаем в папку dist
 gulp.task('html', function () {
     return gulp.src('app/*.html')
-        .pipe(replace('style.css', 'style.min.css'))
         .pipe(gulp.dest('dist'));
 });
 
