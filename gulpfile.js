@@ -1,6 +1,6 @@
 var gulp = require('gulp'),                                 // Gulp
     browserSync = require('browser-sync'),                  // Browser Sync
-    sass = require('gulp-sass'),                            // Для компиляции sass
+    sass = require('gulp-sass')(require('sass')),           // Для компиляции sass
     sourcemap = require("gulp-sourcemaps"),                 // map sass
     del = require('del'),                                   // Для удаления директорий и файлов
     remane = require('gulp-rename'),                        // Для переименования файлов
