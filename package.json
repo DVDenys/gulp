@@ -21,7 +21,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^5.1.0",
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "sass": "^1.68.0"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",

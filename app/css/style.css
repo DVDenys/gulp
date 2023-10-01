@@ -14,19 +14,22 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+}
 
 *,
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+}
 
 body {
   margin: 50px auto;
-  background-color: #353535;
+  background-color: rgb(53, 53, 53);
   font-family: sans-serif;
-  color: white; }
+  color: white;
+}
 
 .button {
   padding: 20px 50px;
@@ -36,11 +39,12 @@ body {
   border-radius: 5px;
   font-weight: 800;
   font-size: larger;
-  color: #fff; }
+  color: #fff;
+}
 
 .text {
   margin: 20px 0;
   color: white;
-  font-size: 20px; }
-
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
